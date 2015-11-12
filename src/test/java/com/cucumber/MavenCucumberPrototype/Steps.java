@@ -24,7 +24,7 @@ public class Steps {
 	GoogleHomePage homePage;
 	GoogleSerchResultPage searchResultPage;
 	
-	//Try to use HtmlUnit
+	//Switch from HtmlUnit to Firefox
 	@Before
 	public void setUp () {
 		driver = new FirefoxDriver();
