@@ -24,6 +24,7 @@ public class Steps {
 	GoogleHomePage homePage;
 	GoogleSerchResultPage searchResultPage;
 	
+	//Try to use HtmlUnit
 	@Before
 	public void setUp () {
 		driver = new HtmlUnitDriver();
