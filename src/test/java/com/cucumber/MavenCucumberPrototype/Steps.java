@@ -24,11 +24,10 @@ public class Steps {
 	GoogleHomePage homePage;
 	GoogleSerchResultPage searchResultPage;
 	
-	//Switch from HtmlUnit to Firefox
 	@Before
 	public void setUp () {
 		driver = new FirefoxDriver();
-		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 	}
 	
 	@After
