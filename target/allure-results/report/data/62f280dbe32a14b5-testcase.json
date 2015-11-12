@@ -1,0 +1,68 @@
+{
+  "uid" : "62f280dbe32a14b5",
+  "name" : "Then This is my first dymmy then step",
+  "title" : "Then This is my first dymmy then step",
+  "time" : {
+    "start" : 1447254295732,
+    "stop" : 1447254295734,
+    "duration" : 2
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 1
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "testId" : null,
+  "suite" : {
+    "uid" : "5d194b6a8c7ee538",
+    "name" : "This is my first Application scenario",
+    "title" : "This is my first Application scenario"
+  },
+  "steps" : [ {
+    "name" : "this_is_my_first_dymmy_then_step",
+    "title" : "This is my first dymmy then step",
+    "time" : {
+      "start" : 1447254295731,
+      "stop" : 1447254295731,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  } ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "iklymchuk"
+  }, {
+    "name" : "thread",
+    "value" : "1681@iklymchuk.main(1)"
+  }, {
+    "name" : "suite-name",
+    "value" : "This is my first Application scenario"
+  }, {
+    "name" : "suite-title",
+    "value" : "This is my first Application scenario"
+  }, {
+    "name" : "story",
+    "value" : "This is my first Application scenario"
+  }, {
+    "name" : "feature",
+    "value" : "This is application feature"
+  }, {
+    "name" : "framework",
+    "value" : "CucumberJVM"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  } ],
+  "parameters" : [ ]
+}

@@ -1,0 +1,181 @@
+{
+  "features" : [ {
+    "title" : "This is server feature",
+    "statistic" : {
+      "total" : 9,
+      "passed" : 7,
+      "pending" : 0,
+      "canceled" : 0,
+      "failed" : 2,
+      "broken" : 0
+    },
+    "stories" : [ {
+      "uid" : "7cd5217d7fe02a5e",
+      "title" : "This is my first Server scenario",
+      "statistic" : {
+        "total" : 9,
+        "passed" : 7,
+        "pending" : 0,
+        "canceled" : 0,
+        "failed" : 2,
+        "broken" : 0
+      },
+      "testCases" : [ {
+        "uid" : "1b8ec7cae7c9b988",
+        "name" : "Given This is my first \"Server\" given step",
+        "title" : "Given This is my first \"Server\" given step",
+        "time" : {
+          "start" : 1447316824247,
+          "stop" : 1447316824251,
+          "duration" : 4
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "8766149c87f4e786",
+        "name" : "When This is my first dymmy when step",
+        "title" : "When This is my first dymmy when step",
+        "time" : {
+          "start" : 1447316824269,
+          "stop" : 1447316824269,
+          "duration" : 0
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "ccbc05b02d1d359b",
+        "name" : "Then This is my next dymmy then step with fail",
+        "title" : "Then This is my next dymmy then step with fail",
+        "time" : {
+          "start" : 1447316824285,
+          "stop" : 1447316824303,
+          "duration" : 18
+        },
+        "severity" : "NORMAL",
+        "status" : "FAILED"
+      }, {
+        "uid" : "f57b3dedb1f826b1",
+        "name" : "Given This is my first \"Server\" given step",
+        "title" : "Given This is my first \"Server\" given step",
+        "time" : {
+          "start" : 1447254295965,
+          "stop" : 1447254295965,
+          "duration" : 0
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "e1699e09a93c4b51",
+        "name" : "When This is my first dymmy when step",
+        "title" : "When This is my first dymmy when step",
+        "time" : {
+          "start" : 1447254295972,
+          "stop" : 1447254295973,
+          "duration" : 1
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "d62a17a1d8cfdca0",
+        "name" : "Then This is my first dymmy then step",
+        "title" : "Then This is my first dymmy then step",
+        "time" : {
+          "start" : 1447254295983,
+          "stop" : 1447254295984,
+          "duration" : 1
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "3b770eb2bdf3f7f9",
+        "name" : "Given This is my first \"Server\" given step",
+        "title" : "Given This is my first \"Server\" given step",
+        "time" : {
+          "start" : 1447316414786,
+          "stop" : 1447316414793,
+          "duration" : 7
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "f3beb8769239cd79",
+        "name" : "When This is my first dymmy when step",
+        "title" : "When This is my first dymmy when step",
+        "time" : {
+          "start" : 1447316414813,
+          "stop" : 1447316414814,
+          "duration" : 1
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "dfb34557df92c9aa",
+        "name" : "Then This is my next dymmy then step with fail",
+        "title" : "Then This is my next dymmy then step with fail",
+        "time" : {
+          "start" : 1447316414837,
+          "stop" : 1447316414862,
+          "duration" : 25
+        },
+        "severity" : "NORMAL",
+        "status" : "FAILED"
+      } ]
+    } ]
+  }, {
+    "title" : "This is application feature",
+    "statistic" : {
+      "total" : 3,
+      "passed" : 3,
+      "pending" : 0,
+      "canceled" : 0,
+      "failed" : 0,
+      "broken" : 0
+    },
+    "stories" : [ {
+      "uid" : "289ab9f2fb2a9782",
+      "title" : "This is my first Application scenario",
+      "statistic" : {
+        "total" : 3,
+        "passed" : 3,
+        "pending" : 0,
+        "canceled" : 0,
+        "failed" : 0,
+        "broken" : 0
+      },
+      "testCases" : [ {
+        "uid" : "5f03e45fa6ad8c7",
+        "name" : "Given This is my first \"Application\" given step",
+        "title" : "Given This is my first \"Application\" given step",
+        "time" : {
+          "start" : 1447254295715,
+          "stop" : 1447254295718,
+          "duration" : 3
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "e8bb03a06e96ec5e",
+        "name" : "When This is my first dymmy when step",
+        "title" : "When This is my first dymmy when step",
+        "time" : {
+          "start" : 1447254295727,
+          "stop" : 1447254295727,
+          "duration" : 0
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "62f280dbe32a14b5",
+        "name" : "Then This is my first dymmy then step",
+        "title" : "Then This is my first dymmy then step",
+        "time" : {
+          "start" : 1447254295732,
+          "stop" : 1447254295734,
+          "duration" : 2
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      } ]
+    } ]
+  } ]
+}

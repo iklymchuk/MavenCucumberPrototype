@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1447254295701" stop="1447254295740" version="1.4.15" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>This is my first Application scenario</name>
+    <title>This is my first Application scenario</title>
+    <test-cases>
+        <test-case start="1447254295715" stop="1447254295718" status="passed">
+            <name>Given This is my first "Application" given step</name>
+            <title>Given This is my first "Application" given step</title>
+            <steps>
+                <step start="1447254295637" stop="1447254295641" status="passed">
+                    <name>this_is_my_first_given_step[Application]</name>
+                    <title>This is my first "([^"]*)" given step</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="host" value="iklymchuk"/>
+                <label name="thread" value="1681@iklymchuk.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1447254295727" stop="1447254295727" status="passed">
+            <name>When This is my first dymmy when step</name>
+            <title>When This is my first dymmy when step</title>
+            <steps>
+                <step start="1447254295726" stop="1447254295726" status="passed">
+                    <name>this_is_my_first_dymmy_when_step</name>
+                    <title>This is my first dymmy when step</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="host" value="iklymchuk"/>
+                <label name="thread" value="1681@iklymchuk.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1447254295732" stop="1447254295734" status="passed">
+            <name>Then This is my first dymmy then step</name>
+            <title>Then This is my first dymmy then step</title>
+            <steps>
+                <step start="1447254295731" stop="1447254295731" status="passed">
+                    <name>this_is_my_first_dymmy_then_step</name>
+                    <title>This is my first dymmy then step</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="host" value="iklymchuk"/>
+                <label name="thread" value="1681@iklymchuk.main(1)"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="story" value="This is my first Application scenario"/>
+        <label name="feature" value="This is application feature"/>
+        <label name="framework" value="CucumberJVM"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

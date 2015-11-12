@@ -1,0 +1,68 @@
+{
+  "uid" : "7196d96fa56e8acb",
+  "name" : "Given This is my first \"Application\" given step",
+  "title" : "Given This is my first \"Application\" given step",
+  "time" : {
+    "start" : 1447254295715,
+    "stop" : 1447254295718,
+    "duration" : 3
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 1
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "testId" : null,
+  "suite" : {
+    "uid" : "834dd2273d308215",
+    "name" : "This is my first Application scenario",
+    "title" : "This is my first Application scenario"
+  },
+  "steps" : [ {
+    "name" : "this_is_my_first_given_step[Application]",
+    "title" : "This is my first \"([^\"]*)\" given step",
+    "time" : {
+      "start" : 1447254295637,
+      "stop" : 1447254295641,
+      "duration" : 4
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  } ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "iklymchuk"
+  }, {
+    "name" : "thread",
+    "value" : "1681@iklymchuk.main(1)"
+  }, {
+    "name" : "suite-name",
+    "value" : "This is my first Application scenario"
+  }, {
+    "name" : "suite-title",
+    "value" : "This is my first Application scenario"
+  }, {
+    "name" : "story",
+    "value" : "This is my first Application scenario"
+  }, {
+    "name" : "feature",
+    "value" : "This is application feature"
+  }, {
+    "name" : "framework",
+    "value" : "CucumberJVM"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  } ],
+  "parameters" : [ ]
+}

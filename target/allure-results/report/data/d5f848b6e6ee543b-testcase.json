@@ -1,0 +1,68 @@
+{
+  "uid" : "d5f848b6e6ee543b",
+  "name" : "Given This is my first \"Server\" given step",
+  "title" : "Given This is my first \"Server\" given step",
+  "time" : {
+    "start" : 1447254295965,
+    "stop" : 1447254295965,
+    "duration" : 0
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 1
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "testId" : null,
+  "suite" : {
+    "uid" : "906f6cb51523cb87",
+    "name" : "This is my first Server scenario",
+    "title" : "This is my first Server scenario"
+  },
+  "steps" : [ {
+    "name" : "this_is_my_first_given_step[Server]",
+    "title" : "This is my first \"([^\"]*)\" given step",
+    "time" : {
+      "start" : 1447254295964,
+      "stop" : 1447254295964,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  } ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "iklymchuk"
+  }, {
+    "name" : "thread",
+    "value" : "1681@iklymchuk.main(1)"
+  }, {
+    "name" : "suite-name",
+    "value" : "This is my first Server scenario"
+  }, {
+    "name" : "suite-title",
+    "value" : "This is my first Server scenario"
+  }, {
+    "name" : "story",
+    "value" : "This is my first Server scenario"
+  }, {
+    "name" : "feature",
+    "value" : "This is server feature"
+  }, {
+    "name" : "framework",
+    "value" : "CucumberJVM"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  } ],
+  "parameters" : [ ]
+}

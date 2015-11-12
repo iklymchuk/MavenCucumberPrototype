@@ -1,0 +1,68 @@
+{
+  "uid" : "8766149c87f4e786",
+  "name" : "When This is my first dymmy when step",
+  "title" : "When This is my first dymmy when step",
+  "time" : {
+    "start" : 1447316824269,
+    "stop" : 1447316824269,
+    "duration" : 0
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 1
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "testId" : null,
+  "suite" : {
+    "uid" : "486ac9422800316f",
+    "name" : "This is my first Server scenario",
+    "title" : "This is my first Server scenario"
+  },
+  "steps" : [ {
+    "name" : "this_is_my_first_dymmy_when_step",
+    "title" : "This is my first dymmy when step",
+    "time" : {
+      "start" : 1447316824264,
+      "stop" : 1447316824264,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  } ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "iklymchuk"
+  }, {
+    "name" : "thread",
+    "value" : "8440@iklymchuk.main(1)"
+  }, {
+    "name" : "suite-name",
+    "value" : "This is my first Server scenario"
+  }, {
+    "name" : "suite-title",
+    "value" : "This is my first Server scenario"
+  }, {
+    "name" : "story",
+    "value" : "This is my first Server scenario"
+  }, {
+    "name" : "feature",
+    "value" : "This is server feature"
+  }, {
+    "name" : "framework",
+    "value" : "CucumberJVM"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  } ],
+  "parameters" : [ ]
+}

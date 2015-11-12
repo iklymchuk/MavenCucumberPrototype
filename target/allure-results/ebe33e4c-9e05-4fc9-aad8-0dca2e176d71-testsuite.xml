@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1447316414771" stop="1447316414869" version="1.4.15" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>This is my first Server scenario</name>
+    <title>This is my first Server scenario</title>
+    <test-cases>
+        <test-case start="1447316414786" stop="1447316414793" status="passed">
+            <name>Given This is my first "Server" given step</name>
+            <title>Given This is my first "Server" given step</title>
+            <steps>
+                <step start="1447316414690" stop="1447316414697" status="passed">
+                    <name>this_is_my_first_given_step[Server]</name>
+                    <title>This is my first "([^"]*)" given step</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="host" value="iklymchuk"/>
+                <label name="thread" value="8164@iklymchuk.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1447316414813" stop="1447316414814" status="passed">
+            <name>When This is my first dymmy when step</name>
+            <title>When This is my first dymmy when step</title>
+            <steps>
+                <step start="1447316414811" stop="1447316414812" status="passed">
+                    <name>this_is_my_first_dymmy_when_step</name>
+                    <title>This is my first dymmy when step</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="host" value="iklymchuk"/>
+                <label name="thread" value="8164@iklymchuk.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1447316414837" stop="1447316414862" status="failed">
+            <name>Then This is my next dymmy then step with fail</name>
+            <title>Then This is my next dymmy then step with fail</title>
+            <failure>
+                <message>AssertionFailedError: null</message>
+                <stack-trace>junit.framework.AssertionFailedError
+	at junit.framework.Assert.fail(Assert.java:55)
+	at junit.framework.Assert.assertTrue(Assert.java:22)
+	at junit.framework.Assert.assertTrue(Assert.java:31)
+	at com.cucumber.MavenCucumberPrototype.Steps.this_is_my_next_dymmy_then_step_with_fail(Steps.java:35)
+	at ✽.Then This is my next dymmy then step with fail(ServerFeature.feature:7)
+</stack-trace>
+            </failure>
+            <steps>
+                <step start="1447316414826" stop="1447316414835" status="failed">
+                    <name>this_is_my_next_dymmy_then_step_with_fail</name>
+                    <title>This is my next dymmy then step with fail</title>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="host" value="iklymchuk"/>
+                <label name="thread" value="8164@iklymchuk.main(1)"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="story" value="This is my first Server scenario"/>
+        <label name="feature" value="This is server feature"/>
+        <label name="framework" value="CucumberJVM"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

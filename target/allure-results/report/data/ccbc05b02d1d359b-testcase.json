@@ -1,0 +1,71 @@
+{
+  "uid" : "ccbc05b02d1d359b",
+  "name" : "Then This is my next dymmy then step with fail",
+  "title" : "Then This is my next dymmy then step with fail",
+  "time" : {
+    "start" : 1447316824285,
+    "stop" : 1447316824303,
+    "duration" : 18
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 1
+  },
+  "failure" : {
+    "message" : "AssertionFailedError: null",
+    "stackTrace" : "junit.framework.AssertionFailedError\n\tat junit.framework.Assert.fail(Assert.java:55)\n\tat junit.framework.Assert.assertTrue(Assert.java:22)\n\tat junit.framework.Assert.assertTrue(Assert.java:31)\n\tat com.cucumber.MavenCucumberPrototype.Steps.this_is_my_next_dymmy_then_step_with_fail(Steps.java:35)\n\tat ✽.Then This is my next dymmy then step with fail(ServerFeature.feature:7)\n"
+  },
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "FAILED",
+  "testId" : null,
+  "suite" : {
+    "uid" : "486ac9422800316f",
+    "name" : "This is my first Server scenario",
+    "title" : "This is my first Server scenario"
+  },
+  "steps" : [ {
+    "name" : "this_is_my_next_dymmy_then_step_with_fail",
+    "title" : "This is my next dymmy then step with fail",
+    "time" : {
+      "start" : 1447316824274,
+      "stop" : 1447316824283,
+      "duration" : 9
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "FAILED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  } ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "iklymchuk"
+  }, {
+    "name" : "thread",
+    "value" : "8440@iklymchuk.main(1)"
+  }, {
+    "name" : "suite-name",
+    "value" : "This is my first Server scenario"
+  }, {
+    "name" : "suite-title",
+    "value" : "This is my first Server scenario"
+  }, {
+    "name" : "story",
+    "value" : "This is my first Server scenario"
+  }, {
+    "name" : "feature",
+    "value" : "This is server feature"
+  }, {
+    "name" : "framework",
+    "value" : "CucumberJVM"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  } ],
+  "parameters" : [ ]
+}

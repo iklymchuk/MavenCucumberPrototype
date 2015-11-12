@@ -1,0 +1,40 @@
+{
+  "defectsList" : [ {
+    "title" : "Product defects",
+    "status" : "FAILED",
+    "defects" : [ {
+      "uid" : "e41cfdac0f6e1366",
+      "failure" : {
+        "message" : "AssertionFailedError: null",
+        "stackTrace" : "junit.framework.AssertionFailedError\n\tat junit.framework.Assert.fail(Assert.java:55)\n\tat junit.framework.Assert.assertTrue(Assert.java:22)\n\tat junit.framework.Assert.assertTrue(Assert.java:31)\n\tat com.cucumber.MavenCucumberPrototype.Steps.this_is_my_next_dymmy_then_step_with_fail(Steps.java:35)\n\tat ✽.Then This is my next dymmy then step with fail(ServerFeature.feature:7)\n"
+      },
+      "testCases" : [ {
+        "uid" : "ccbc05b02d1d359b",
+        "name" : "Then This is my next dymmy then step with fail",
+        "title" : "Then This is my next dymmy then step with fail",
+        "time" : {
+          "start" : 1447316824285,
+          "stop" : 1447316824303,
+          "duration" : 18
+        },
+        "severity" : "NORMAL",
+        "status" : "FAILED"
+      }, {
+        "uid" : "dfb34557df92c9aa",
+        "name" : "Then This is my next dymmy then step with fail",
+        "title" : "Then This is my next dymmy then step with fail",
+        "time" : {
+          "start" : 1447316414837,
+          "stop" : 1447316414862,
+          "duration" : 25
+        },
+        "severity" : "NORMAL",
+        "status" : "FAILED"
+      } ]
+    } ]
+  }, {
+    "title" : "Test defects",
+    "status" : "BROKEN",
+    "defects" : [ ]
+  } ]
+}

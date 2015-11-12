@@ -1,0 +1,20 @@
+-------------------------------------------------------------------------------
+Test set: com.cucumber.MavenCucumberPrototype.RunnerTest
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 1.131 sec <<< FAILURE! - in com.cucumber.MavenCucumberPrototype.RunnerTest
+Then This is my next dymmy then step with fail(Scenario: This is my first Server scenario)  Time elapsed: 0.011 sec  <<< FAILURE!
+junit.framework.AssertionFailedError: null
+	at junit.framework.Assert.fail(Assert.java:55)
+	at junit.framework.Assert.assertTrue(Assert.java:22)
+	at junit.framework.Assert.assertTrue(Assert.java:31)
+	at com.cucumber.MavenCucumberPrototype.Steps.this_is_my_next_dymmy_then_step_with_fail(Steps.java:35)
+	at ✽.Then This is my next dymmy then step with fail(ServerFeature.feature:7)
+
+Scenario: This is my first Server scenario  Time elapsed: 0.019 sec  <<< FAILURE!
+junit.framework.AssertionFailedError: null
+	at junit.framework.Assert.fail(Assert.java:55)
+	at junit.framework.Assert.assertTrue(Assert.java:22)
+	at junit.framework.Assert.assertTrue(Assert.java:31)
+	at com.cucumber.MavenCucumberPrototype.Steps.this_is_my_next_dymmy_then_step_with_fail(Steps.java:35)
+	at ✽.Then This is my next dymmy then step with fail(ServerFeature.feature:7)
+
