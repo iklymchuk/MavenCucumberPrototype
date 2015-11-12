@@ -4,5 +4,5 @@ jdk:
 branches:  
  only:
  - master
-install: true  
+
 script: mvn test
