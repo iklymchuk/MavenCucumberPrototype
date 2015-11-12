@@ -5,7 +5,7 @@ import static org.hamcrest.MatcherAssert.assertThat;
 import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.htmlunit.HtmlUnitDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
 
 import ru.yandex.qatools.allure.annotations.Step;
 
@@ -27,7 +27,7 @@ public class Steps {
 	//Try to use HtmlUnit
 	@Before
 	public void setUp () {
-		driver = new HtmlUnitDriver();
+		driver = new FirefoxDriver();
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 	}
 	
